@@ -5,8 +5,8 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello Octo - My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>Hello Octo - Fernando Mayer</title>
+  <meta name="author" content="Fernando Mayer">
 
   
   <meta name="description" content="Hello Octopress Este é um teste para tentar configurar o octopress!
@@ -25,7 +25,7 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Fernando Mayer" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -36,15 +36,17 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">Fernando Mayer</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>Personal site and blog</h2>
   
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="fernandomayer@gmail.com" rel="subscribe-email" title="subscribe via email">Email</a></li>
   
 </ul>
   
@@ -102,7 +104,7 @@
       
   
 
-<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+<span class="byline author vcard">Posted by <span class="fn">Fernando Mayer</span></span>
 
       
 
@@ -124,7 +126,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo/" data-via="" data-counturl="http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo/" data-via="fernando_mayer" data-counturl="http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo/" >Tweet</a>
   
   
   
@@ -137,6 +139,12 @@
     </p>
   </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -153,7 +161,59 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/fernandomayer-dev">@fernandomayer-dev</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'fernandomayer-dev',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("fernando_mayer", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/fernando_mayer" class="twitter-follow-button" data-show-count="false">Follow @fernando_mayer</a>
+  
+</section>
+
+
+<section>
+  <h1>On Delicious</h1>
+  <div id="delicious"></div>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/fernandomayer?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="http://delicious.com/fernandomayer">My Delicious Bookmarks &raquo;</a></p>
+</section>
 
 
 
@@ -165,12 +225,28 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Your Name -
+  Copyright &copy; 2012 - Fernando Mayer -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'fernandomayer';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo/';
+        var disqus_url = 'http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
