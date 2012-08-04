@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://fernandomayer-dev.github.com/atom.xml" rel="self"/>
   <link href="http://fernandomayer-dev.github.com/"/>
-  <updated>2012-08-03T23:44:04-03:00</updated>
+  <updated>2012-08-04T01:13:51-03:00</updated>
   <id>http://fernandomayer-dev.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Octo]]></title>
+    <link href="http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo/"/>
+    <updated>2012-08-04T01:11:00-03:00</updated>
+    <id>http://fernandomayer-dev.github.com/blog/2012/08/04/hello-octo</id>
+    <content type="html"><![CDATA[<h1>Hello Octopress</h1>
+
+<p>Este é um teste para tentar configurar o octopress!</p>
+]]></content>
+  </entry>
   
 </feed>
