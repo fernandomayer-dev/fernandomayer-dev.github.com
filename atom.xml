@@ -4,7 +4,7 @@
   <title><![CDATA[Fernando Mayer]]></title>
   <link href="http://fernandomayer-dev.github.com/atom.xml" rel="self"/>
   <link href="http://fernandomayer-dev.github.com/"/>
-  <updated>2012-08-04T02:49:57-03:00</updated>
+  <updated>2012-08-04T03:55:18-03:00</updated>
   <id>http://fernandomayer-dev.github.com/</id>
   <author>
     <name><![CDATA[Fernando Mayer]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Com md]]></title>
+    <link href="http://fernandomayer-dev.github.com/blog/2012/08/04/com-md/"/>
+    <updated>2012-08-04T02:52:00-03:00</updated>
+    <id>http://fernandomayer-dev.github.com/blog/2012/08/04/com-md</id>
+    <content type="html"><![CDATA[<p>Testando agora com a extensão <code>md</code>.</p>
+
+<p>Um código do <code>R</code></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='r'><span class='line'>require<span class="p">(</span>devtools<span class="p">)</span>
+</span><span class='line'>install_github<span class="p">(</span><span class="s">&quot;FishMaps&quot;</span><span class="p">,</span> username <span class="o">=</span> <span class="s">&quot;fernandomayer&quot;</span><span class="p">)</span>
+</span><span class='line'>rnorm<span class="p">(</span><span class="m">100</span><span class="p">,</span> mean <span class="o">=</span> <span class="m">10</span><span class="p">,</span> sd <span class="o">=</span> <span class="m">5</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello Octo]]></title>
