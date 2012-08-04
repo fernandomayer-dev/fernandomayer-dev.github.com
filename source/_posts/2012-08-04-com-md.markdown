@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Com md"
+date: 2012-08-04 02:52
+comments: true
+categories: 
+---
+
+Testando agora com a extensão `md`.
+
+Um código do `R`
+
+``` r
+require(devtools)
+install_github("FishMaps", username = "fernandomayer")
+rnorm(100, mean = 10, sd = 5)
+```
